@@ -14,7 +14,7 @@ difference() {
         cube([width,depth+thickness,height]);
         
         // lip
-translate([-lip, 0, -lip]) cube([width+2*lip, thickness, height+2*lip]);
+        translate([-lip, 0, -lip]) cube([width+2*lip, thickness, height+2*lip]);
     }
     
     // interior
